@@ -1,6 +1,13 @@
-username = 'Данил'
-title = 'Сходить в магазин'
-content = 'Купить сыр'
-status = 'Не выполнен'
-created_date = '26.01.2025'
-issue_date = '29.01.2025'
+username = input("Введите имя пользователя: ")
+title = input("Введите заговловок заметки: ")
+content = input("Напишите заметку: ")
+status = input("Введите статус заметки: ")
+created_date = input("Введите дату создания заметки: ")
+issue_date = input("Введите дату выполнения заметки: ")
+
+print(username)
+print(title)
+print(content)
+print(status)
+print(created_date[:5])
+print(issue_date[:5])
